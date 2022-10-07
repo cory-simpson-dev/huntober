@@ -1,0 +1,14 @@
+# HUNTOBER
+
+This repo will be used to store all challenges and other comings of `Huntober`.
+
+## Challenges
+
+Week 1 (String Week):
+
+- [Day 1](https://blog.barbaralaw.me/huntober-2022-day-1 "Day 1 Huntober")
+- [Day 2](https://blog.barbaralaw.me/huntober-2022-day-2 "Day 2 Huntober")
+- [Day 3](https://blog.barbaralaw.me/huntober-2022-day-3 "Day 3 Huntober")
+- [Day 4](https://blog.barbaralaw.me/huntober-2022-day-4 "Day 4 Huntober")
+- [Day 5](https://blog.barbaralaw.me/huntober-2022-day-5 "Day 5 Huntober")
+- [Day 6](https://blog.barbaralaw.me/huntober-2022-day-6 "Day 6 Huntober")
