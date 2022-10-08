@@ -12,3 +12,8 @@ Week 1 (String Week):
 - [Day 4](https://blog.barbaralaw.me/huntober-2022-day-4 "Day 4 Huntober")
 - [Day 5](https://blog.barbaralaw.me/huntober-2022-day-5 "Day 5 Huntober")
 - [Day 6](https://blog.barbaralaw.me/huntober-2022-day-6 "Day 6 Huntober")
+- [Day 7](https://blog.barbaralaw.me/huntober-2022-day-7 "Day 7 Huntober")
+
+Week 2 (Array Week):
+
+- [Day 8](https://blog.barbaralaw.me/huntober-2022-day-8 "Day 8 Huntober")
