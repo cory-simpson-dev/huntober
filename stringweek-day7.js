@@ -41,62 +41,62 @@ const encryptedMsg = "e!!Igv)t5lltBcvbdeDH3dVw!OOtI#Aa.ZMDu7WYpP^VVjDc4I50iv#ylh
 
 // DECRYPTING WEEK 1 MESSAGE (not exporting/importing from other files so that others can still use the code)
 
-// function decodeString(str) {
-//     let numbersArr = '0123456789'.split('')
-//     let lettersArr = 'OIZEhSGLBq'.split('')
-//     let answerStr = ''
-//     // loop through length of input string
-//     for (let i = 0; i < str.length; i++) {
-//         // loop through numbersArr & lettersArr together
-//         for (let j = 0; j < numbersArr.length; j++) {
-//             // check if current letter in str is included in numbersArr || lettersArr
-//             if (numbersArr[j] === str[i]) {
-//                 answerStr += `${lettersArr[j]}`
-//             } else if (lettersArr[j] === str[i]) {
-//                 answerStr += `${numbersArr[j]}`
-//             }
-//         }
-//         // check if answerStr had a new letter assigned, else, add the current letter
-//         if (answerStr.length === i) {
-//             answerStr += `${str[i]}`
-//         }
-//     }
-//     return answerStr
-// }
+function decodeString(str) {
+    let numbersArr = '0123456789'.split('')
+    let lettersArr = 'OIZEhSGLBq'.split('')
+    let answerStr = ''
+    // loop through length of input string
+    for (let i = 0; i < str.length; i++) {
+        // loop through numbersArr & lettersArr together
+        for (let j = 0; j < numbersArr.length; j++) {
+            // check if current letter in str is included in numbersArr || lettersArr
+            if (numbersArr[j] === str[i]) {
+                answerStr += `${lettersArr[j]}`
+            } else if (lettersArr[j] === str[i]) {
+                answerStr += `${numbersArr[j]}`
+            }
+        }
+        // check if answerStr had a new letter assigned, else, add the current letter
+        if (answerStr.length === i) {
+            answerStr += `${str[i]}`
+        }
+    }
+    return answerStr
+}
 
-// function keysWorkSometimes (str, keys) {
-//     // create your key array (see day 2 for the accurate key)
-//     // *note: I am not using split/join here because the space at the beginning of the string could be significant for the final day of string week*
-//     let unlocked = str
-//     // loop through length of key and use .replaceAll in str
-//     for (let i = 0; i<keys.length; i++) {
-//         unlocked = unlocked.replaceAll(keys[i], ' ')
-//     }
-//     return unlocked
-// }
+function keysWorkSometimes (str, keys) {
+    // create your key array (see day 2 for the accurate key)
+    // *note: I am not using split/join here because the space at the beginning of the string could be significant for the final day of string week*
+    let unlocked = str
+    // loop through length of key and use .replaceAll in str
+    for (let i = 0; i<keys.length; i++) {
+        unlocked = unlocked.replaceAll(keys[i], ' ')
+    }
+    return unlocked
+}
 
-// function reversingStr(str) {
-//     return str.split('').reverse().join('')
-// }
+function reversingStr(str) {
+    return str.split('').reverse().join('')
+}
 
-// function removeTheClutter(str, clutterMagnet) {
-//     let counter = 0
-//     let cleanStr = ''
-//     // create a loop to and check if counter is at clutterMagnet increment
-//     for (let i = 0; i < str.length; i++) {
-//         counter += 1
-//         if (counter % clutterMagnet === 0) {
-//             cleanStr += ''
-//         } else {
-//             cleanStr += str[i]
-//         }
-//     }
-//     return cleanStr;
-// }
+function removeTheClutter(str, clutterMagnet) {
+    let counter = 0
+    let cleanStr = ''
+    // create a loop to and check if counter is at clutterMagnet increment
+    for (let i = 0; i < str.length; i++) {
+        counter += 1
+        if (counter % clutterMagnet === 0) {
+            cleanStr += ''
+        } else {
+            cleanStr += str[i]
+        }
+    }
+    return cleanStr;
+}
 
-// // day 2 = 'Space'
-// let key = 'Space'
-// // day 5 = length of 3
-// let length = 3
+// day 2 = 'Space'
+let key = 'Space'
+// day 5 = length of 3
+let length = 3
 
-// backAndForth(removeTheClutter(reversingStr(keysWorkSometimes(decodeString(encryptedMsg), key)), length))
+backAndForth(removeTheClutter(reversingStr(keysWorkSometimes(decodeString(encryptedMsg), key)), length))
