@@ -19,3 +19,5 @@ Week 2 (Array Week):
 - [Day 8](https://blog.barbaralaw.me/huntober-2022-day-8 "Day 8 Huntober")
 - [Day 9](https://blog.barbaralaw.me/huntober-2022-day-9 "Day 9 Huntober")
 - [Day 10](https://blog.barbaralaw.me/huntober-2022-day-10 "Day 10 Huntober")
+- [Day 11](https://blog.barbaralaw.me/huntober-2022-day-11 "Day 11 Huntober")
+- [Day 12](https://blog.barbaralaw.me/huntober-2022-day-12 "Day 12 Huntober")
