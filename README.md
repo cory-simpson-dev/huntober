@@ -21,3 +21,8 @@ Week 2 (Array Week):
 - [Day 10](https://blog.barbaralaw.me/huntober-2022-day-10 "Day 10 Huntober")
 - [Day 11](https://blog.barbaralaw.me/huntober-2022-day-11 "Day 11 Huntober")
 - [Day 12](https://blog.barbaralaw.me/huntober-2022-day-12 "Day 12 Huntober")
+- [Day 13](https://blog.barbaralaw.me/huntober-2022-day-13 "Day 13 Huntober")
+
+Week 3 (Baddie Week):
+
+- [Day 17](https://blog.barbaralaw.me/huntober-2022-day-17 "Day 17 Huntober")
